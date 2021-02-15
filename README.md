@@ -6,4 +6,5 @@ Liste des personnes participants au projet :
 - MAUBERT Florent
 - DECOBERT Juliette
 - MENDEL Elodie
+- CESANO Marina
 - LYSENSOONE Arnaud
