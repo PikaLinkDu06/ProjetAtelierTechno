@@ -1,4 +1,4 @@
-package com.example.pokemonquizz
+package fr.lpdam.pokemonquizz
 
 import org.junit.Test
 

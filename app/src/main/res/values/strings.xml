@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PokemonQuizz</string>
+    <string name="title_main_page">Who\'s that Pokémon ?</string>
 </resources>
