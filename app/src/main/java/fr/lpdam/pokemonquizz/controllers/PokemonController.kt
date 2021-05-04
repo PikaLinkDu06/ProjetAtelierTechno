@@ -11,10 +11,6 @@ class PokemonController {
         fun addPokemon(pokemon: Pokemon) {
             pokemonList.add(pokemon)
         }
-
-        fun getPokemons() : ArrayList<Pokemon> {
-            return pokemonList
-        }
     }
 
 }
