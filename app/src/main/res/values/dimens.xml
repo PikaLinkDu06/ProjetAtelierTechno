@@ -2,4 +2,5 @@
 <resources>
     <dimen name="splash_screen_image">150dp</dimen>
     <dimen name="splash_screen_title">50dp</dimen>
+    <dimen name="common_size">100dp</dimen>
 </resources>
