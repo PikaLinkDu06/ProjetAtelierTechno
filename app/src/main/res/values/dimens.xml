@@ -3,4 +3,9 @@
     <dimen name="splash_screen_image">150dp</dimen>
     <dimen name="splash_screen_title">50dp</dimen>
     <dimen name="common_size">100dp</dimen>
+    <dimen name="pokemon_size">70dp</dimen>
+    <dimen name="image_pokemon_marginLeft">15dp</dimen>
+    <dimen name="text_pokemon_name">25dp</dimen>
+    <dimen name="margin_id_pokemon">110dp</dimen>
+    <dimen name="margin_pokemon_name">55dp</dimen>
 </resources>

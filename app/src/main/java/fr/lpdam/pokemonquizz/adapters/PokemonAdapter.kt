@@ -12,7 +12,6 @@ class PokemonAdapter(val items: Array<Pokemon>) : RecyclerView.Adapter<PokemonAd
         fun bindPokemon(pokemon: Pokemon) {
 
         }
-
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
@@ -25,5 +24,4 @@ class PokemonAdapter(val items: Array<Pokemon>) : RecyclerView.Adapter<PokemonAd
     }
 
     override fun getItemCount(): Int = items.size
-
 }
