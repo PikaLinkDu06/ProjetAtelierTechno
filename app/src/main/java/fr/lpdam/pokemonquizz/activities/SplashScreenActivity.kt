@@ -33,7 +33,7 @@ class SplashScreenActivity : AppCompatActivity() {
                         PokemonController.addPokemon(pokemonResponse)
                     }
                     if(i == 151) {
-                     val intent = Intent(this@SplashScreenActivity, MainActivity::class.java)
+                     val intent = Intent(this@SplashScreenActivity, PokeQuizzActivity::class.java)
                         startActivity(intent)
                     }
                 }

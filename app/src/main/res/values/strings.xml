@@ -7,4 +7,7 @@
     <string name="answer_is">Ta réponse : </string>
     <string name="back">Retour</string>
     <string name="confirm">Confirmer</string>
+    <string name="pokemon_found">Bravo, vous avez trouvé le Pokémon</string>
+    <string name="pokemon_not_found">Dommage, retentez votre chance avec ce nouveau Pokémon</string>
+    <string name="pokemon_name_needed">Vous devez renseigner un nom de Pokémon</string>
 </resources>

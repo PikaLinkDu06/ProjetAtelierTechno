@@ -7,7 +7,7 @@
     <dimen name="title_layout_height">100dp</dimen>
     <dimen name="title_size">40sp</dimen>
     <dimen name="question_size">20sp</dimen>
-    <dimen name="question_m_t">110dp</dimen>
+    <dimen name="question_m_t">25dp</dimen>
     <dimen name="question_m_l">15dp</dimen>
     <dimen name="picture_size">280dp</dimen>
     <dimen name="tki">30dp</dimen>
