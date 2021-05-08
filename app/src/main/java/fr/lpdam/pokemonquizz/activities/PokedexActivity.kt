@@ -7,6 +7,7 @@ import fr.lpdam.pokemonquizz.R
 import fr.lpdam.pokemonquizz.adapters.PokemonAdapter
 import fr.lpdam.pokemonquizz.controllers.PokemonController
 import fr.lpdam.pokemonquizz.databinding.ActivityPokedexBinding
+import fr.lpdam.pokemonquizz.models.Pokemon
 
 class PokedexActivity : AppCompatActivity() {
 
@@ -17,7 +18,7 @@ class PokedexActivity : AppCompatActivity() {
         binding = ActivityPokedexBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val items = PokemonController.pokemonList
+        val items = PokemonController.pokemonList.sortedWith(compareBy({ it.id }))
         binding.pokedexRecyclerView.layoutManager = LinearLayoutManager(this)
         binding.pokedexRecyclerView.adapter = PokemonAdapter(items)
     }

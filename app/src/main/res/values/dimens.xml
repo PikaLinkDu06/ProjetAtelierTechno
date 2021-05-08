@@ -8,4 +8,5 @@
     <dimen name="text_pokemon_name">25dp</dimen>
     <dimen name="margin_id_pokemon">110dp</dimen>
     <dimen name="margin_pokemon_name">55dp</dimen>
+    <dimen name="image_pokemon_marginRight">20dp</dimen>
 </resources>
