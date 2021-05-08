@@ -3,14 +3,19 @@ package fr.lpdam.pokemonquizz.adapters
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import fr.lpdam.pokemonquizz.databinding.ItemPokemonBinding
 import fr.lpdam.pokemonquizz.models.Pokemon
 
-class PokemonAdapter(val items: Array<Pokemon>) : RecyclerView.Adapter<PokemonAdapter.ViewHolder>() {
+class PokemonAdapter(val items: ArrayList<Pokemon>) : RecyclerView.Adapter<PokemonAdapter.ViewHolder>() {
 
     inner class ViewHolder(val binding: ItemPokemonBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bindPokemon(pokemon: Pokemon) {
-
+            with(pokemon){
+                binding.pokemonName.text = pokemon.name
+                binding.idPokemon.text = "#" + "%03d".format(pokemon.id)
+                Picasso.get().load(pokemon.sprites.front_default).into(binding.image)
+            }
         }
     }
 
