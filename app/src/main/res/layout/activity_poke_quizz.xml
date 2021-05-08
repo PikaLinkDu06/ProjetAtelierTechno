@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_pokedex">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:text="@string/title_poke_quizz"
+        android:gravity="center"
+        android:textSize="@dimen/title_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tki"
+            android:text="@string/title_main_page"
+            android:textSize="@dimen/question_size"
+            android:layout_marginTop="@dimen/question_m_t"
+            android:layout_marginLeft="@dimen/question_m_l"/>
+
+        <ImageView
+            android:id="@+id/picutre_poke_quizz"
+            android:layout_width="@dimen/picture_size"
+            android:layout_height="@dimen/picture_size"
+            android:layout_marginTop="@dimen/tki"
+            android:layout_gravity="center"
+            android:src="@drawable/tkiptdr"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:rowCount="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:text="@string/answer_is"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/en_dessous"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_rowWeight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/tki"
+                android:layout_marginLeft="@dimen/tki"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:columnCount="3"
+                android:layout_rowWeight="1"
+                android:layout_gravity="center">
+
+                    <Button
+                        android:id="@+id/go_back"
+                        android:layout_width="@dimen/largeur_bouton"
+                        android:layout_height="wrap_content"
+                        android:background="@color/red"
+                        android:text="@string/back"
+                        android:layout_columnWeight="1"
+                        android:layout_marginLeft="@dimen/decale"
+                        android:layout_marginRight="@dimen/decale"/>
+                    <Button
+                        android:id="@+id/confirm"
+                        android:layout_width="@dimen/largeur_bouton"
+                        android:layout_height="wrap_content"
+                        android:background="@color/green"
+                        android:text="@string/confirm"
+                        android:layout_columnWeight="1"
+                        android:layout_marginLeft="@dimen/decale"
+                        android:layout_marginRight="@dimen/decale"/>
+
+            </GridLayout>
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>

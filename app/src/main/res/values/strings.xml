@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">PokemonQuizz</string>
     <string name="title_main_page">Who\'s that Pokémon ?</string>
+
+    <!--Poke Quizz Strings-->
+    <string name="title_poke_quizz">PokeQuizz</string>
+    <string name="answer_is">Ta réponse : </string>
+    <string name="back">Retour</string>
+    <string name="confirm">Confirmer</string>
 </resources>
