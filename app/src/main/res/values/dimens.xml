@@ -2,6 +2,7 @@
 <resources>
     <dimen name="splash_screen_image">150dp</dimen>
     <dimen name="splash_screen_title">50dp</dimen>
+
     <dimen name="common_size">100dp</dimen>
     <dimen name="pokemon_size">70dp</dimen>
     <dimen name="image_pokemon_marginLeft">15dp</dimen>
@@ -10,4 +11,17 @@
     <dimen name="margin_pokemon_name">55dp</dimen>
     <dimen name="image_pokemon_marginRight">20dp</dimen>
     <dimen name="pokemon_image_size">100dp</dimen>
+
+    <!--Poke Quizz Dimens-->
+    <dimen name="title_layout_height">100dp</dimen>
+    <dimen name="title_size">40sp</dimen>
+    <dimen name="question_size">20sp</dimen>
+    <dimen name="question_m_t">25dp</dimen>
+    <dimen name="question_m_l">15dp</dimen>
+    <dimen name="picture_size">280dp</dimen>
+    <dimen name="tki">30dp</dimen>
+    <dimen name="en_dessous">15dp</dimen>
+    <dimen name="largeur_bouton">80dp</dimen>
+    <dimen name="decale">10dp</dimen>
+
 </resources>
