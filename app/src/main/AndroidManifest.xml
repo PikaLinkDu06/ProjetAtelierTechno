@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".activities.MainActivity"></activity>
         <activity android:name=".activities.PokedexActivity"></activity>
+        <activity android:name=".activities.PokemonDetailActivity"></activity>
     </application>
 
 </manifest>
