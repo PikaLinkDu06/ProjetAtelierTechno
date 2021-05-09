@@ -16,6 +16,6 @@ Liste des personnes participants au projet :
 - Lorsque il est délivré, on a la possibilité de cliquer sur celui-ci pour avoir le détail de ses caractéristiques, en plus de son image et son nom.
 
 ## API Utilisée
- https://pokeapi.co/api/v2/pokemon/
+ https://pokeapi.co/
  
 ## Photo finale du projet
