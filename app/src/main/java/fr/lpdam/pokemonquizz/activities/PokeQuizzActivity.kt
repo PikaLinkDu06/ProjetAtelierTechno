@@ -35,7 +35,7 @@ class PokeQuizzActivity: AppCompatActivity() {
         }
 
         binding.confirmAnswer.setOnClickListener {
-            var userAnswer = binding.userAnswer.text.toString().toLowerCase()
+            var userAnswer = binding.userAnswer.text.toString().toLowerCase().trim()
             if(userAnswer != "") {
                 if(userAnswer == currentPokemon.name.toLowerCase()) {
                     Toast.makeText(it.context, R.string.pokemon_found, Toast.LENGTH_SHORT).show()

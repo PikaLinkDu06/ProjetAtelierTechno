@@ -18,10 +18,10 @@ class PokemonDetailActivity : AppCompatActivity() {
 
         selectedPokemon = intent.getSerializableExtra("selectedPokemon") as Pokemon
 
-        binding.pokemonDetailName.text = selectedPokemon.name
+        binding.pokemonDetailName.text = selectedPokemon.name.capitalize()
         Picasso.get().load(selectedPokemon.sprites.front_default).into(binding.pokemonDetailImage)
-        binding.pokemonDetailId.text = "%03d".format(selectedPokemon.id)
-        binding.pokemonDetailHeight.text = "" + selectedPokemon.height
-        binding.pokemonDetailWeight.text = "" + selectedPokemon.weight
+        binding.pokemonDetailId.text = " %03d".format(selectedPokemon.id)
+        binding.pokemonDetailHeight.text = " " + selectedPokemon.height
+        binding.pokemonDetailWeight.text = " " + selectedPokemon.weight
     }
 }

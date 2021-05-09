@@ -1,12 +1,9 @@
 package fr.lpdam.pokemonquizz.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import fr.lpdam.pokemonquizz.R
-import fr.lpdam.pokemonquizz.controllers.PokemonController
 import fr.lpdam.pokemonquizz.databinding.ActivityMainBinding
-import fr.lpdam.pokemonquizz.models.Pokemon
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -15,7 +12,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.jeu.setOnClickListener {  }
-        binding.poke.setOnClickListener {  }
+
+        binding.playButton.setOnClickListener {
+            val intent = Intent(binding.root.context, PokeQuizzActivity::class.java)
+            startActivity(intent)
+        }
+        binding.pokedexButton.setOnClickListener {
+            val intent = Intent(binding.root.context, PokedexActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -17,7 +17,7 @@
         android:text="@string/title_main_page"
         android:textColor="@color/white"
         android:textIsSelectable="false"
-        android:textSize="24sp"
+        android:textSize="@dimen/main_title_size"
         android:gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -26,10 +26,11 @@
         app:layout_constraintVertical_bias="0.055" />
 
     <Button
-        android:id="@+id/jeu"
-        android:layout_width="247dp"
-        android:layout_height="75dp"
-        android:text="Jouons!"
+        android:id="@+id/play_button"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:text="@string/main_play_button"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,10 +38,11 @@
         app:layout_constraintVertical_bias="0.449" />
 
     <Button
-        android:id="@+id/poke"
-        android:layout_width="249dp"
-        android:layout_height="71dp"
-        android:text="Pokédex"
+        android:id="@+id/pokedex_button"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="@dimen/main_button_height"
+        android:textColor="@color/black"
+        android:text="@string/main_pokedex_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"

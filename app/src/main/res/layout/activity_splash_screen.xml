@@ -3,22 +3,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent" >
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:textColor="@color/black"
         android:textSize="@dimen/splash_screen_title"
-        app:layout_constraintBottom_toTopOf="@+id/pokeballImage"
+        app:layout_constraintBottom_toTopOf="@+id/pokeball_image"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/pokeballImage"
+        android:id="@+id/pokeball_image"
         android:layout_width="@dimen/splash_screen_image"
         android:layout_height="@dimen/splash_screen_image"
         android:src="@drawable/pokeball"
@@ -35,6 +34,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/pokeballImage" />
+        app:layout_constraintTop_toBottomOf="@+id/pokeball_image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

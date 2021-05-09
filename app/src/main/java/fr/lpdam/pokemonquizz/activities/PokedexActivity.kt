@@ -3,11 +3,9 @@ package fr.lpdam.pokemonquizz.activities
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import fr.lpdam.pokemonquizz.R
 import fr.lpdam.pokemonquizz.adapters.PokemonAdapter
 import fr.lpdam.pokemonquizz.controllers.PokemonController
 import fr.lpdam.pokemonquizz.databinding.ActivityPokedexBinding
-import fr.lpdam.pokemonquizz.models.Pokemon
 
 class PokedexActivity : AppCompatActivity() {
 

@@ -3,7 +3,7 @@
     <string name="title_main_page">Who\'s that Pokémon ?</string>
     <string name="pokemon_height">Taille : </string>
     <string name="pokemon_weight">Poids : </string>
-    <string name="pokemon_id">"ID Pokedex : "</string>
+    <string name="pokemon_id">ID Pokedex : </string>
     <string name="title_poke_quizz">PokeQuizz</string>
     <string name="answer_is">Ta réponse : </string>
     <string name="back">Retour</string>
@@ -11,4 +11,6 @@
     <string name="pokemon_found">Bravo, vous avez trouvé le Pokémon</string>
     <string name="pokemon_not_found">Dommage, retentez votre chance avec ce nouveau Pokémon</string>
     <string name="pokemon_name_needed">Vous devez renseigner un nom de Pokémon</string>
+    <string name="main_play_button">Jouons !</string>
+    <string name="main_pokedex_button">Pokédex</string>
 </resources>
