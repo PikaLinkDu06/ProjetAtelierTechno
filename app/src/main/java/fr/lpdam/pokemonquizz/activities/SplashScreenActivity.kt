@@ -35,6 +35,7 @@ class SplashScreenActivity : AppCompatActivity() {
                     if(i == 151) {
                      val intent = Intent(this@SplashScreenActivity, PokedexActivity::class.java)
                         startActivity(intent)
+                        finish()
                     }
                 }
 
