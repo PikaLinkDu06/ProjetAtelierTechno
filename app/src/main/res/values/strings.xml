@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">PokemonQuizz</string>
     <string name="title_main_page">Who\'s that Pokémon ?</string>
+    <string name="pokemon_height">Taille : </string>
+    <string name="pokemon_weight">Poids : </string>
+    <string name="pokemon_id">"ID Pokedex : "</string>
 </resources>
